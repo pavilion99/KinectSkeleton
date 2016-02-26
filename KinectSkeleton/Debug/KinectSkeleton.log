@@ -1,0 +1,36 @@
+﻿Build started 7/16/2013 3:53:21 PM.
+     1>Project "c:\Users\Spencer\documents\visual studio 2010\Projects\KinectSkeleton\KinectSkeleton\KinectSkeleton.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "c:\users\spencer\documents\visual studio 2010\Projects\KinectSkeleton\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\KinectSkeleton.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Kinect\v1.5\inc\\" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\KinectSkeleton.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Kinect\v1.5\inc\\" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\KinectSkeleton.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt KinectSkeleton.cpp
+         KinectSkeleton.cpp
+     1>c:\program files\microsoft sdks\kinect\v1.5\inc\nuisensor.h(46): error C2146: syntax error : missing ';' before identifier 'INuiAudioBeam'
+     1>c:\program files\microsoft sdks\kinect\v1.5\inc\nuisensor.h(46): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files\microsoft sdks\kinect\v1.5\inc\nuisensor.h(46): error C2146: syntax error : missing ';' before identifier 'INuiAudioBeam'
+     1>c:\program files\microsoft sdks\kinect\v1.5\inc\nuisensor.h(46): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files\microsoft sdks\kinect\v1.5\inc\nuisensor.h(46): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files\microsoft sdks\kinect\v1.5\inc\nuisensor.h(46): error C2086: 'int INuiAudioBeam' : redefinition
+                 c:\program files\microsoft sdks\kinect\v1.5\inc\nuisensor.h(46) : see declaration of 'INuiAudioBeam'
+     1>c:\program files\microsoft sdks\kinect\v1.5\inc\nuisensor.h(52): error C2146: syntax error : missing ';' before identifier 'INuiFrameTexture'
+     1>c:\program files\microsoft sdks\kinect\v1.5\inc\nuisensor.h(52): warning C4091: '' : ignored on left of 'interface' when no variable is declared
+     1>c:\program files\microsoft sdks\kinect\v1.5\inc\nuisensor.h(58): error C2146: syntax error : missing ';' before identifier 'INuiSensor'
+     1>c:\program files\microsoft sdks\kinect\v1.5\inc\nuisensor.h(58): warning C4091: '' : ignored on left of 'interface' when no variable is declared
+     1>c:\program files\microsoft sdks\kinect\v1.5\inc\nuisensor.h(473): error C2371: 'INuiFrameTexture' : redefinition; different basic types
+                 c:\program files\microsoft sdks\kinect\v1.5\inc\nuisensor.h(52) : see declaration of 'INuiFrameTexture'
+     1>c:\program files\microsoft sdks\kinect\v1.5\inc\nuisensor.h(596): error C2371: 'INuiSensor' : redefinition; different basic types
+                 c:\program files\microsoft sdks\kinect\v1.5\inc\nuisensor.h(58) : see declaration of 'INuiSensor'
+     1>c:\program files\microsoft sdks\kinect\v1.5\inc\nuisensor.h(684): error C2061: syntax error : identifier 'INuiAudioBeam'
+     1>c:\program files\microsoft sdks\kinect\v1.5\inc\nuisensor.h(1047): error C2065: 'ppDmo' : undeclared identifier
+     1>c:\program files\microsoft sdks\kinect\v1.5\inc\nuisensor.h(1047): warning C4229: anachronism used : modifiers on data are ignored
+     1>c:\program files\microsoft sdks\kinect\v1.5\inc\nuisensor.h(1047): error C2491: 'NuiGetAudioSource' : definition of dllimport data not allowed
+     1>c:\program files\microsoft sdks\kinect\v1.5\inc\nuisensor.h(1047): fatal error C1903: unable to recover from previous error(s); stopping compilation
+     1>Done Building Project "c:\Users\Spencer\documents\visual studio 2010\Projects\KinectSkeleton\KinectSkeleton\KinectSkeleton.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.13
